@@ -29,9 +29,9 @@ function findTheCheese (foods) {
 	for (var i = 0; i < foods.length; i++) {
 		for (var j = 0; j < cheeses.length; j++) {
 			if ( cheeses[j]=== foods[i] ) {
-				return foods[i];
+				return foods[i]; //will quit and return the first cheese that it finds
 			}
 		}
 	}
-	return null;
+	return null; // returns null if it doesn't find any cheese :( 
 }
