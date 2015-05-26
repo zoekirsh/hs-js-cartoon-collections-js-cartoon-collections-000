@@ -32,13 +32,13 @@ It should then print out each name using `console.log`. The print-out should loo
 
 ![captain-planet](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/captain-planet.jpeg)
 
-This method should accept an array of planeteer calls, like this:
+This function should accept an array of planeteer calls, like this:
 
 ```js
 planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 ```
 
-It should then capitalize each element and add an exclamation point at the end. The return value of this method should be an array, in this example:
+It should then convert each element to uppercase and add an exclamation point at the end. The return value of this method should be an array, in this example:
 
 ```
 summonCaptainPlanet(planeteerCalls)
@@ -46,3 +46,50 @@ summonCaptainPlanet(planeteerCalls)
 ```
 
 Once the test for this method is passing, move on to the next method, long planeteer calls.
+
+#### Function 3 - Long Planeteer Calls
+
+The `longPlaneteerCalls` method should accept an array of calls. The function should tell us if any of the calls are longer than four characters. For example:
+
+```js
+shortWords = ["wind", "fire"]
+longPlaneteerCalls(short_words)
+#=> false
+
+assortedWords = ["earth", "wind", "heart", "fire"]
+longPlaneteerCalls(assorted_words)
+#=> true
+```
+
+Notice the return value of this method is either false or true, depending on the array it was given as an argument.
+
+Once the test for this method is passing, move on to the last function.
+
+#### Method 4 - Find the Cheese
+
+![dancing-mice](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/cartoon-collections/cheese.jpg)
+
+The "findTheCheese" function should accept an array of strings. It should then look through these strings and return the first string the is a type of cheese. The types of cheese that appear are  cheddar, gouda, and camembert.
+
+For example:
+
+```js
+
+snacks = ["crackers", "gouda", "thyme"]
+findTheCheese(snacks)
+#=> "gouda"
+
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+findTheCheese(soup)
+#=> "cheddar"
+```
+
+If, sadly, a list of ingredients does not include cheese, return `null`:
+
+```js
+ingredients = ["garlic", "rosemary", "bread"]
+findTheCheese(ingredients)
+#=> null
+```
+
+You can assume that all strings will be lower-case.

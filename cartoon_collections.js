@@ -12,3 +12,26 @@ function summonCaptainPlanet (planeteerCalls){
 	};
 	return newCalls
 }
+
+function longPlaneteerCalls (words) {
+	var outcome = false;
+	for (var i = 0; i < words.length; i++) {
+		if (words[i].length > 4) {
+			outcome = true;
+			return outcome;
+		}
+	}
+	return outcome;
+}
+
+function findTheCheese (foods) {
+	var cheeses = ["cheddar", "gouda", "camembert"];
+	for (var i = 0; i < foods.length; i++) {
+		for (var j = 0; j < cheeses.length; j++) {
+			if ( cheeses[j]=== foods[i] ) {
+				return foods[i];
+			}
+		}
+	}
+	return null;
+}
