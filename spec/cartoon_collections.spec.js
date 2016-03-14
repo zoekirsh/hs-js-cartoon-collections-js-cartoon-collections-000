@@ -41,7 +41,7 @@ describe("findTheCheese", function() {
       });
 
       it("returns 'no cheese!' if the array does not contain a type of cheese", function() {
-        var cheddarCheese = ["banana", "cheddar", "sock"];
-        expect(findTheCheese(cheddarCheese)).toEqual("no cheese!");
+        var noCheeses = ["banana", "peanut", "sock"];
+        expect(findTheCheese(noCheeses)).toEqual("no cheese!");
       });
 });
