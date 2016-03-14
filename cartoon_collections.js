@@ -23,5 +23,5 @@ function findTheCheese (foods) {
 			}
 		}
 	}
-	return null; // returns null if it doesn't find any cheese :( 
+	return "no cheese!"; // returns "no cheese!" if it doesn't find any cheese :( 
 }
