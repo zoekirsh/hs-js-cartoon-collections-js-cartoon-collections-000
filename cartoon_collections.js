@@ -1,15 +1,15 @@
-function dwarfRollCall (dwarves) {
+function dwarfRollCall(dwarves) {
 	//your code here!
 }
 
-function summonCaptainPlanet (planeteerCalls){
+function summonCaptainPlanet(planeteerCalls){
 	//your code here!
 }
 
-function longPlaneteerCalls (words) {
+function longPlaneteerCalls(words) {
 	//your code here!
 }
 
-function findTheCheese (foods) {
+function findTheCheese(foods) {
 	// your code here!
 }
