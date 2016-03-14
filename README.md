@@ -21,12 +21,9 @@ This function should accept an array of dwarf names, for instance:
 ["Doc", "Dopey", "Bashful", "Grumpy"]
 ```
 
-It should then print out each name using `console.log`. The print-out should look like this:
+It should then return a string with the numbered dwarves. The string should look like this:
 
-> 1. Doc
-> 2. Dopey
-> 3. Bashful
-> 4. Grumpy
+> "1. Doc 2. Dopey 3. Bashful 4. Grumpy"
 
 #### Function 2 - Summon Captain Planet
 

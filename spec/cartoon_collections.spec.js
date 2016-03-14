@@ -8,17 +8,17 @@ describe("rollCallDwarves", function() {
 });
 
 describe("summonCaptainPlanet", function() {
-  it("returns an array with the same number of elements that it was given" function() {
+  it("returns an array with the same number of elements that it was given", function() {
         var veggies = ["carrot", "cucumber", "pepper"];
         expect(summonCaptainPlanet(veggies).length).toEqual(3);
   });
 
-  it("capitalizes each element and adds an exclamation mark" function() {
+  it("capitalizes each element and adds an exclamation mark", function() {
         var fruits = ["apple", "banana", "orange"];
         var result = summonCaptainPlanet(fruits);
         result.forEach(function(item){
           expect(item).toContain("!");
-        })
+        });
   });
 });
 
