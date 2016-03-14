@@ -24,12 +24,12 @@ describe("summonCaptainPlanet", function() {
 
 describe("longPlaneteerCalls", function() {
       it("returns true if any calls are longer than 4 characters", function() {
-        longCalls = ["earth", "wind", "fire", "water", "heart"];
+        var longCalls = ["earth", "wind", "fire", "water", "heart"];
         expect(longPlaneteerCalls(longCalls)).toBe(true);
       });
 
       it("returns false if no calls are longer than 4 characters", function() {
-        shortCalls = ["wind", "fire"];
+        var shortCalls = ["wind", "fire"];
         expect(longPlaneteerCalls(shortCalls)).toBe(false);
       });
 });
