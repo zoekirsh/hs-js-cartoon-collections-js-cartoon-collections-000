@@ -81,7 +81,7 @@ findTheCheese(soup)
 #=> "cheddar"
 ```
 
-If, sadly, a list of ingredients does not include cheese, return `null`:
+If, sadly, a list of ingredients does not include cheese, return "no cheese!":
 
 ```js
 ingredients = ["garlic", "rosemary", "bread"]
