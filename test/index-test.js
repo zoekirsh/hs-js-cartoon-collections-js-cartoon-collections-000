@@ -13,12 +13,12 @@ describe("summonCaptainPlanet", function() {
         expect(summonCaptainPlanet(veggies).length).toEqual(3);
   });
 
-  it("capitalizes each element and adds an exclamation mark", function() {
+  it("uppercases each element and adds an exclamation mark", function() {
         var fruits = ["apple", "banana", "orange"];
         var result = summonCaptainPlanet(fruits);
-        result.forEach(function(item){
-          expect(item).toContain("!");
-        });
+        expect(result[0]).toEqual("APPLE!");
+        expect(result[1]).toEqual("BANANA!");
+        expect(result[2]).toEqual("ORANGE!");
   });
 });
 
