@@ -18,6 +18,7 @@ function longPlaneteerCalls(words) {
     characters.push(words[i].length)
   } return characters.some(x => x>4)
 }
+
 let cheeses = ['cheddar', 'gouda', 'camembert']
 
 function findTheCheese (foods) {
